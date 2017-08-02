@@ -1,0 +1,30 @@
+{
+  "name": "@retailmenot/shiva",
+  "version": "1.1.2",
+  "description": "QA Framework for UI Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RetailMeNotSandbox/shiva.git"
+  },
+  "keywords": [
+    "qa"
+  ],
+  "dependencies": {
+    "chai": "^3.5.0",
+    "leadfoot": "^1.6.12"
+  },
+  "author": "RMN Engineering",
+  "contributors": [
+    "Meredith Gardner <mgardner@rmn.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "standard": "^10.0.2",
+    "webpack": "2.5.1"
+  }
+}
